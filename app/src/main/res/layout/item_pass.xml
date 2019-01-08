@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <TextView android:id="@+id/tvYearL"
+              android:layout_width="match_parent"
+              android:text="Year"
+              android:textStyle="bold"
+              android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/tvYear"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/tvCountryL"
+              android:layout_width="match_parent"
+              android:text="Country"
+              android:textStyle="bold"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/tvCountry"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/tvAgeL"
+              android:layout_width="match_parent"
+              android:text="Age"
+              android:textStyle="bold"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/tvAge"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+ <TextView android:id="@+id/tvFemalesL"
+           android:layout_width="match_parent"
+           android:text="Females"
+           android:textStyle="bold"
+           android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/tvFemales"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/tvMalesL"
+              android:layout_width="match_parent"
+              android:text="Males"
+              android:textStyle="bold"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/tvMales"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/tvTotalL"
+              android:layout_width="match_parent"
+              android:text="Total"
+              android:textStyle="bold"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/tvTotal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
